@@ -66,4 +66,5 @@ You can modify the `extensions` dictionary in the script to include additional f
 
 ## License:
 
-This script is provided as-is with no guarantees. Feel free to modify and improve it as needed.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Mario-Lupo-Ciaponi/File-Organizer-Script/blob/main/LICENSE) 
+file for details.
