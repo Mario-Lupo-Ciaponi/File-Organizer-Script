@@ -37,13 +37,17 @@ python file_organizer.py
 
 The script currently supports the following extensions and moves them into corresponding folders:
 
-| Extension                | Folder       |
-| ------------------------ | ------------ |
-| .png, .jpg, .jpeg, .HEIC | Images       |
-| .mp4, .MOV               | Videos       |
-| .pdf, .docx              | Documents    |
-| .pptx                    | Presentation |
-| .zip                     | Zips         |
+| Extension                                                                 | Folder        |
+| ------------------------------------------------------------------------- | ------------- |
+| .png, .jpg, .jpeg, .heic, .gif, .bmp, .tiff, .webp, .svg                   | Images        |
+| .mp4, .mov, .avi, .mkv, .wmv, .flv, .webm, .m4v                            | Videos        |
+| .pdf, .doc, .docx, .txt, .rtf, .odt, .md                                   | Documents     |
+| .ppt, .pptx, .key, .odp                                                    | Presentation  |
+| .xls, .xlsx, .csv, .ods                                                    | Spreadsheets  |
+| .zip, .rar, .7z, .tar, .gz, .bz2                                           | Zips          |
+| .mp3, .m4a, .wav, .aac, .flac, .ogg                                        | Audio         |
+| .py, .js, .html, .css, .json, .xml, .yml, .yaml                            | Code          |
+
 
 You can modify the `extensions` dictionary in the script to include additional file types or change the destination folders.
 
@@ -61,7 +65,6 @@ You can modify the `extensions` dictionary in the script to include additional f
 ## Future Improvements:
 
 - Automatically create missing destination folders.
-- Add support for more file extensions.
 - Improve Windows compatibility.
 
 ## License:
